@@ -5,7 +5,7 @@ Removes your ability to control yourself while falling, client sided.
 ## What this mod does
 
 It makes surviving falls a lot harder, since you have no control over your velocity. This could be considered a mod making the game more realistic.
-This mod is made for clients, that means server admins cannot enforce having this mod installed (might be changes in a fututre update).
+This mod is made for clients, that means server admins cannot enforce having this mod installed (might be changes in a future update).
 
 ## Dependencies
 
