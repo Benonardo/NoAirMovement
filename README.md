@@ -1,9 +1,12 @@
-# Fabric Example Mod
+# NoAirMovement
 
-## Setup
+Removes your ability to control yourself while falling, client sided.
 
-For setup instructions please see the [fabric wiki page](https://fabricmc.net/wiki/tutorial:setup) that relates to the IDE that you are using.
+## What this mod does
 
-## License
+It makes surviving falls a lot harder, since you have no control over your velocity. This could be considered a mod making the game more realistic.
+This mod is made for clients, that means server admins cannot enforce having this mod installed (might be changes in a fututre update).
 
-This template is available under the CC0 license. Feel free to learn from it and incorporate it in your own projects.
+## Dependencies
+
+None! Like most of my mods, it works out of the box.
