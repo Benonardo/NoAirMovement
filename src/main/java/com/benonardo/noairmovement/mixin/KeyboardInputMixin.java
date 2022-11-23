@@ -14,7 +14,7 @@ public class KeyboardInputMixin {
     @Inject(method = "getMovementMultiplier", at = @At(value = "HEAD"), cancellable = true)
     private static void dontMoveWhenInAir(CallbackInfoReturnable<Float> cir) {
         ClientPlayerEntity player;
-        if (!((player = MinecraftClient.getInstance().player) == null || player.isCreative() || player.isSpectator() || player.isOnGround())) {
+        if (!((player = MinecraftClient.getInstance().player) == null || player.isCreative() || player.isSpectator() || player.isTouchingWater() || player.isInLava() || player.isOnGround())) {
             cir.setReturnValue(0.0f);
         }
     }
